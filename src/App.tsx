@@ -1,7 +1,7 @@
 import axios from "axios";
 import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/SignUp";
-export const backend: string = "https://socio-backend-theta.vercel.app";
+export const backend: string = "https://social-b-new.vercel.app";
 import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
