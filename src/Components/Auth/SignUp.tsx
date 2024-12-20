@@ -28,6 +28,7 @@ const SignUp = () => {
                 // Include Authorization only if required by the API
                 // Authorization: "Bearer YOUR_TOKEN_HERE",
               },
+              withCredentials:true
             }
           );
       
